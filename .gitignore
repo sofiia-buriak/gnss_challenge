@@ -11,6 +11,9 @@ data/raw/*
 models/*.pkl
 models/*.json
 
+# Ігнорувати віртуальне середовище Python
+.venv/
+
 __pycache__/
 *.ipynb_checkpoints/
 .env

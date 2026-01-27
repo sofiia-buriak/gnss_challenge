@@ -1,4 +1,11 @@
-data/
+data/*
+!data/.gitkeep
+!data/processed/.gitkeep
+!data/raw/.gitkeep
+data/processed/*
+!data/processed/.gitkeep
+data/raw/*
+!data/raw/.gitkeep
 *.csv
 
 models/*.pkl

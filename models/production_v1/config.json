@@ -1,0 +1,25 @@
+{
+    "model_name": "GNSS_Early_Warning_v1",
+    "input_features": [
+        "cnoMean",
+        "cnoStd",
+        "numSV",
+        "numSatsTracked",
+        "sat_efficiency",
+        "cnoMean_rolling_mean_5s",
+        "cnoMean_rolling_std_5s",
+        "cnoMean_rolling_mean_10s",
+        "cnoMean_rolling_std_10s",
+        "sat_efficiency_rolling_mean_5s",
+        "sat_efficiency_rolling_std_5s",
+        "sat_efficiency_rolling_mean_10s",
+        "sat_efficiency_rolling_std_10s",
+        "cnoMean_lag1",
+        "sat_efficiency_lag1"
+    ],
+    "smoothing_window_seconds": 10,
+    "threshold_safe": 5000,
+    "threshold_fail": 50000,
+    "version": "1.0.0",
+    "author": "Sofia Buriak"
+}
